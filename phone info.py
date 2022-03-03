@@ -5,39 +5,75 @@ LISTS =  {
     1111: 'Amal',
     2222: 'maha',
     3333: 'mohammed',
+    4444: 'eman',
+    5555: 'abdulaziz',
+    6666: 'dahom',
+    7777: 'pop',
+    8888: 'msha3l',
+    9999: 'police',
 }
 print(f'there you go {LISTS[LIST]}\n ')
-#pop up ass hole 
+
+list = str(input('do you wnat to search for another number, if you want to complet type y,else,n'))
+
 while True:
-    if str(input('do you wnat to search for another number ')) == 'no':
-        print('P')  
-    else:
-        break
-        
-                   
+
+        if list == 'n':
+            print('bye bye')
+            quit()
+        elif list == 'y':
+            break
+
+
 
 LIST = int(input('Type the number you are searching for.. '))
-print(f'{LIST}')
+print(f'{LIST}\n')
 
 LISTS =  {
     1111: 'Amal',
     2222: 'maha',
     3333: 'mohammed',
+    4444: 'eman',
+    5555: 'abdulaziz',
+    6666: 'dahom',
+    7777: 'pop',
+    8888: 'msha3l',
+    9999: 'police',
 }
-print(f'there you go {LISTS[LIST]} ')
+print(f'there you go {LISTS[LIST]}\n ')
 
-#####aaaaaaa##############aaaaaaaaaaaaaa#################################
-POP = int(input('dniodfjpf'))
-print(f'{ POP}')
-pop = {
-    1111:'22222',
-    1222:'44444'
-    
-    
+
+
+list = str(input('do you wnat to search for another number, if you want to complet type y,else,n'))
+
+
+while True:
+
+           if list == 'n':
+            print('bye bye')
+            quit()
+           elif list == 'y':
+            break
+
+
+
+
+
+LIST = int(input('Type the number you are searching for.. '))
+print(f'{LIST}\n')
+
+
+LISTS =  {
+    1111: 'Amal',
+    2222: 'maha',
+    3333: 'mohammed',
+    4444: 'eman',
+    5555: 'abdulaziz',
+    6666: 'dahom',
+    7777: 'pop',
+    8888: 'msha3l',
+    9999: 'police',
 }
-print(f'{POP[pop]}')
 
-input('do you wnat to search for another number ')
-if input == 'no':
-    exit
-    
+print('thats it dude you took to loong bye bye')
+quit()
